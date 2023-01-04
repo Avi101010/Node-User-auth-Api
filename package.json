@@ -1,0 +1,26 @@
+{
+  "name": "user-auth-api",
+  "version": "1.0.0",
+  "description": "user auth with mongodb and jwt",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "abhishek raj",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "command": "^0.0.5",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "joi": "^17.6.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongo-sanitize": "^1.1.0",
+    "mongoose": "^6.6.5",
+    "nodemailer": "^6.8.0",
+    "uuid": "^9.0.0"
+  }
+}
